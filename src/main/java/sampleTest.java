@@ -14,7 +14,7 @@ public class sampleTest {
 
         WiniumDriver driver = null;
 
-        String appPath = "C:/windows/system32/calc.exe";
+        String appPath = "C:/DynamicsAX/Client/Bin/Ax32.exe";
         DesktopOptions option = new DesktopOptions();
         option.setApplicationPath(appPath);
         option.setDebugConnectToRunningApp(false);
